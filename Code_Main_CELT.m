@@ -9,7 +9,7 @@ addpath('funs')
 addpath('cluster_measures');
 %% load dataset_name
 
-dataset_name='NottingHill';
+dataset_name='BDGP';
 load(dataset_name);
 
 X=data;
@@ -25,9 +25,9 @@ end
 iter=0;
 max_iter=20;
 tol=1e-6;
-m=200;
+m=100;
 mu=100;
-rho=1;
+rho=100;
 tao=rho/mu;
 lambda=0.6;
 ratio=1;
